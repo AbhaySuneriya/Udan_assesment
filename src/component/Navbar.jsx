@@ -97,11 +97,11 @@ const Navbar = () => {
           <FiX className="text-2xl" />
         </button>
         <div className="flex flex-col mt-16 space-y-6 p-6">
-          <a href="#" className="hover:text-pink-400">Home</a>
-          <a href="#" className="hover:text-pink-400">Testimonial</a>
-          <a href="#" className="hover:text-pink-400">About</a>
-          <a href="#" className="hover:text-pink-400">Services</a>
-          <a href="#" className="hover:text-pink-400">Contact</a>
+           <Link to="/" className="hover:text-pink-400">Home</Link>
+              <Link to="/services" className="hover:text-pink-400">Services</Link>
+              <Link to="/about" className="hover:text-pink-400">About</Link>
+              <Link to="/testimonial" className="hover:text-pink-400">Testimonial</Link>
+              <Link to="/contact" className="hover:text-pink-400">Contact</Link>
           <FiSearch className="text-xl cursor-pointer hover:text-pink-400" />
         </div>
       </div>
